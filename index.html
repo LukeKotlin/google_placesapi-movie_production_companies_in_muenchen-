@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Filmproduktionen in München und Umgebung - Verzeichnis</title>
+    <meta name="description" content="Filmproduktion-Muenchen.de is ein online Verzeichnis für alle Filmproduktionen aus München und Umgebung. Hier findest du sämtliche Adressen, Kontaktdaten, Öffnungszeiten und Internetadressen an einem Ort.">
+    <script src="map.js"></script>
+    <script data-ad-client="ca-pub-3450639586996710" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="css\font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img\filmproduktion_münchen_favicon.png"/>
+  </head>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><a href="index.html">filmproduktion-muenchen.de</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a id="werbeplatz" href="#contact">Jetzt Werbeplatz sichern!</a></li>
+          <li><img src="img\powered_by_google_on_non_white_hdpi.png"></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <section id="showcase">
+      <div class="container">
+        <h1>Filmproduktionen in München und Umgebung</h1>
+        <button onclick="location.href='#map';" id="button">Mehr erfahren</button>
+      </div>
+    </section>
+    <section id="boxes">
+      <h2 class="heading">Alle Filmproduktionen in München und Umgebung an einem Ort</h2>
+      <div class="container">
+        <div class="box">
+          <img src="img\filmproduktion_münchen_kamera.png">
+          <h3>Finde die passende Filmproduktion in München</h3>
+          <p>Egal ob Imagefilm, Werbekampagne oder Postproduktion, hier findest du die Filmproduktion die wirklich zu dir passt.</p>
+        </div>
+        <div class="box">
+          <img src="img\filmproduktion_münchen_map.png">
+          <h3>Gewerbe Adressen von knapp 60 Filmproduktionen</h3>
+          <p>Von München Schwabing bis Grünwald findest du sämtliche Gewerbe Adressen von Filmproduktionen aus München und Umgebung.</p>
+        </div>
+        <div class="box">
+          <img src="img\filmproduktion_münchen_verzeichnis.png">
+          <h3>Online Verzeichnis für Filmproduktionen aus München</h3>
+          <p>Neben Gewerbeadressen werden dir außerdem Kontaktdaten, Google Bewertungen und Internet Adressen der entsprechenden Produktionsfirmen geliefert.</p>
+        </div>
+    </section>
+      <div id="map"></div>
+      <div id="right-panel">
+        <ul id="places"></ul>
+      </div>
+      <h2 id="sidebar-heading">Filmproduktionen in München und Umgebung:</h2>
+      <div id="side_bar"></div>
+      <div id="more_button"><button id="more">Mehr Ergebnisse</button></div>
+    <section>
+      <div class="container3">
+        <h2 class="heading">Alle Filmproduktionen in München und Umgebung an einem Ort</h2>
+        <p class="centered-p">Laut Google Suche existieren aktuell mehr als 60 Filmproduktionen in München und Umgebung. Der meisten Münchener Produktionen liegen im Zentrum von München, in den Stadtteilen Schwabing-West, Altstadt, Maxvorstadt, Sendling, Ludwigsvorstadt und Haidhausen. Doch auch in unmittelbarer Nähe von München trifft man auf etablierte Filmproduktionen, wie zum Beispiel in Grünwald oder Unterföhring. Filmproduktion-Muenchen.de ist ein Online Verzeichnis für alle Filmproduktionen in München. Egal ob Imagefilm, Werbekampagne oder Postproduktion, hier findest du die Filmproduktion die deinen Anforderungen gerecht wird. Neben Gewerbeadressen werden dir außerdem Kontaktdaten, Google Bewertungen und Internet Adressen der entsprechenden Produktionsfirmen angezeigt.</p>
+        <button onclick="location.href='#map';" id="button">Mehr erfahren</button>
+      </div>
+    </section>
+    <section id="contact">
+      <h3>Bei Anfragen bezüglichen Werbeflächen und anderer Art füllen Sie bitte das Kontaktformular aus:</h3>
+      <div class="container2">
+        <form class="contact-form" action="mail.php" method="post">
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="mail" placeholder="E-Mail Adresse">
+          <input type="text" name="subject" placeholder="Anfrage z.B. Werbefläche">
+          <textarea name="message" rows="10" placeholder="Nachricht"></textarea>
+          <button id="submit-button" type="submit" name="submit">Absenden</button>
+        </form>
+      </div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBc14KSIhtEoJ6g6xBYwvczLsY7oW1rZ3I&libraries=places&callback=initMap" async defer></script>
+  </body>
+  <footer>
+    <div class="container">
+      <div id="branding">
+        <h1><a href="index.html">filmproduktion-muenchen.de</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li id="impressum"><a href="impressum.html">Impressum</a></li>
+          <li id="datenschutz"><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a id="werbeplatz" href="#contact">Jetzt Werbeplatz sichern!</a></li>
+          <li><img src="img\powered_by_google_on_non_white_hdpi.png"></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,485 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 500px;
+        width: 80%;
+        margin: auto;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body{
+        font: 16px/1.5 'Roboto',sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      p, h2{
+        color: #5E5E5E;
+      }
+
+      .container{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      .container2{
+        width: 40%;
+        margin: auto;
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 70px;
+      }
+
+      #button, #more {
+        padding: 15px 32px;
+        background-color: #e8491d;
+        border-color: #e8491d;
+        border:none;
+        border-radius: 3px;
+        color: white;
+        font-size: 20px;
+        margin: auto;
+        display: block;
+        cursor: pointer;
+      }
+
+      #button:hover, #more:hover{
+        background-color: #c74521;
+      }
+
+      .heading{
+        text-align: center;
+        font-size: 30px;
+        width: 50%;
+        border-bottom: gray 1px solid;
+        margin: auto;
+        margin-bottom: 50px;
+        font-weight: lighter;
+      }
+
+
+
+/* Boxes */
+#boxes{
+  margin-top:70px;
+  margin-bottom: 80px;
+}
+
+#boxes .box{
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+  width:33%;
+  padding: 15px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+      header{
+        background: #35424a;
+        color: white;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #e8491d 2px solid;
+      }
+
+      footer{
+        background: #35424a;
+        color: white;
+        padding-top: 30px;
+        min-height: 70px;
+        border-top: #e8491d 2px solid;
+      }
+
+      footer a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      footer a:hover{
+        text-decoration: underline;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+      header li, footer li{
+        float: left;
+        display: inline;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 0 20px 0 20px;
+      }
+
+
+      #werbeplatz{
+        border-width: thin;
+        border-radius: 3px;
+        border-color: #e8491d;
+        border-style: solid;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      #werbeplatz:hover{
+        text-decoration: underline;
+      }
+
+
+      header #branding, footer #branding{
+        float: left;
+      }
+
+      header #branding h1, footer #branding h1{
+        margin: 0;
+      }
+
+      header nav, footer nav{
+        float: right;
+      }
+
+
+      .container3{
+        width: 40%;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 150px;
+        margin-bottom: 100px;
+      }
+
+      h3{
+        font-weight: lighter;
+        font-size: 25px;
+      }
+
+      #contact h3{
+        width: 40%;
+        margin: auto;
+        font-weight: lighter;
+        font-size: 25px;
+      }
+
+      #contact{
+        padding-top: 70px;
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font: 15px 'Roboto',sans-serif;
+      }
+      
+      #submit-button {
+        background-color: #e8491d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      #submit-button:hover {
+        background-color: #c74521;
+      }
+
+
+      #showcase{
+        min-height: 400px;
+        background: url('../img/filmproduktion_muenchen_header.png') no-repeat 0;
+        background-size: cover;
+      }
+
+      #showcase h1{
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        margin-top: 70px;
+      }
+
+
+
+      #right-panel {
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding: 10px;
+        display: none;
+      }
+
+      #right-panel select, #right-panel input {
+        font-size: 15px;
+      }
+
+      #right-panel select {
+        width: 100%;
+      }
+
+      #right-panel i {
+        font-size: 12px;
+      }
+      #right-panel {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        right: 3%;
+        height: 600px;
+        width: 300px;
+        border: 1px solid #999;
+        background: #fff;
+        display: inline-block;
+        vertical-align: top;
+        display: none;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin: 0 0 5px 0;
+        font-weight: lighter;
+      }
+
+    
+      #more_button #more{
+        width: 20%;
+        margin-left: 30%; 
+        margin-top: 40px;
+      }
+
+
+      #side_bar {
+        width: 40%;
+        margin-left: 20%; 
+        margin-top: 20px;
+      }
+
+      #sidebar-heading{
+        width: 40%;
+        margin-left: 20%;
+        margin-top: 40px;
+      }
+
+
+      div.element{
+          border-style: solid;
+          padding: 10px;
+          border-width: thin;
+          margin-bottom: 20px;
+          border-radius: 3px;
+      }
+
+      div.element:nth-child(odd) {
+        background-color: white;
+      }
+
+
+      .centered-p {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .container-impressum{
+        width: 70%;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+      }
+
+      #branding a{
+        color: white;
+        text-decoration: none;
+      }
+
+
+      /* Media Queries */
+
+      @media(max-width: 768px){
+
+        html {
+          scroll-behavior: smooth;
+        }
+
+          #map{
+              display: block;
+              width: 95%;
+              margin: auto;
+              height: 300px;
+          }
+
+
+          #right-panel{
+              display: none;
+              margin: auto;
+              position: relative;
+              right: 0;
+              margin-top: 15px;
+              height: 400px;
+          }
+
+
+          footer h1,
+          header h1{
+              font-size: 19px;
+              width: 100%;
+              text-align: center;
+          }
+
+          footer #branding,
+          header #branding,
+          #boxes .box{
+            float: none;
+            width: 100%;
+          }
+
+          nav li{
+            text-align: center;
+            width: 100%;
+            margin: auto;
+          }
+
+          nav{
+            text-align: center;
+          }
+
+          nav ul{
+            display: inline-block;
+          }
+
+
+          
+
+          #showcase h1{
+            font-size: 25px;
+            margin-top: 20px;
+          }
+
+          #showcase {
+            background-repeat: no-repeat;
+            background-size: auto;
+            width: 100%;
+            min-height: 250px;
+            width: 100%;
+            padding-top: 20px;
+          }
+
+          .container2,
+          .container3{
+            width: 80%;
+            margin: auto;
+          }
+
+          #side_bar{
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+          }
+
+          #sidebar-heading{
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+          }
+
+          #more_button #more{
+            width: 60%;
+            margin: auto;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 70px;
+          }
+
+          .heading{
+            width: 70%;
+            font-size: 22px;
+          }
+
+          #contact h3 {
+            width: 80%;
+            font-size: 22px;
+          }
+
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            font: 15px 'Roboto',sans-serif;
+          }
+          
+          #submit-button {
+            background-color: #e8491d;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          #submit-button:hover {
+            background-color: #c74521;
+          }
+
+          header li, footer li{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding-top: 20px;
+          }
+
+          nav{
+            width: 100%;
+            padding-right: 45px;
+          }
+    
+          #werbeplatz{
+            padding: 5px;
+            float: none !important;
+            width: 100% !important;
+          }
+
+          nav img{
+            height: 20px;
+            width: auto;
+          }
+
+          .container{
+            width: 100%;
+            overflow-x: hidden;
+          }
+
+          .container-impressum{
+            overflow-x: hidden;
+            width: 90%;
+          }
+
+          .container-impressum h2{
+            font-size: 20px;
+          }
+
+          .container-impressum h1{
+            font-size: 26px;
+          }
+      }
